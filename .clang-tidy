@@ -1,0 +1,12 @@
+Checks:
+  - "*"
+  - "-llvmlibc-*"
+  - "-llvm-header-guard"
+  - "-misc-non-private-member-variables-in-classes"
+  - "-fuchsia-default-arguments-calls"
+  - "-google-explicit-constructor"
+  - "-performance-unnecessary-value-param"
+  - "-hicpp-explicit-conversions"
+CheckOptions:
+  - key: cpp-analyzer.CXX_LANGUAGE_STANDARD
+    value: c++20
